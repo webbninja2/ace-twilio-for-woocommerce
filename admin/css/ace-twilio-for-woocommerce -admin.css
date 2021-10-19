@@ -1,0 +1,53 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ace_twilio_label {
+    width: 25%;
+    height: 61px;
+    float: left;
+}
+.ace_twilio_content {
+    width: 74%;
+    float: left;
+    height: 61px;
+}
+.ace_twilio_label_status {
+    width: 25%;
+    height: 265px;
+    float: left;
+}
+.ace_twilio_content_status {
+    width: 74%;
+    float: left;
+    height: 265px;
+}
+input.ace_twilio_cr {
+    width: 40%;
+}
+.ace_twilio_content textarea {
+    width: 60%;
+}
+
+.ace_twilio_save {
+	background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    margin: 5px 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+strong.ace_twilio_lable {
+    font-size: 15px;
+}
+p.error {
+    color: red;
+    margin-left: 271px;
+}
